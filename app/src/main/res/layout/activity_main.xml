@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Not Connected"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect to Car"
+        android:layout_marginBottom="16dp" />
+
+    <ListView
+        android:id="@+id/devicesListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false">
+
+        <Space
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal" />
+        <Button
+            android:id="@+id/forwardButton"
+            android:text="Forward"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal" />
+        <Space
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal" />
+
+        <Button
+            android:id="@+id/leftButton"
+            android:text="Left"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal" />
+        <Button
+            android:id="@+id/stopButton"
+            android:text="Stop"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal" />
+        <Button
+            android:id="@+id/rightButton"
+            android:text="Right"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal" />
+
+        <Space
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal" />
+        <Button
+            android:id="@+id/backwardButton"
+            android:text="Backward"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal" />
+        <Space
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal" />
+
+    </GridLayout>
+
+</LinearLayout>
