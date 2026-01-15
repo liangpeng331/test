@@ -1,0 +1,63 @@
+# C# Unity
+#
+# ~/.config/git/ignore
+#
+# Created by https://www.toptal.com/developers/gitignore/api/unity
+# Edit at https://www.toptal.com/developers/gitignore?templates=unity
+
+### C# ###
+[Bb]in/
+[Oo]bj/
+[Ll]ibrary/
+
+# Rider #
+.idea/
+
+# VS Code #
+.vscode/
+
+# Visual Studio #
+.vs/
+
+# User-specific files #
+*.user
+*.userprefs
+*.suo
+
+# Build results #
+[Bb]uild/
+[Ll]ogs/
+[Tt]emp/
+
+# NuGet #
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# Mac #
+.DS_Store
+
+# Windows #
+Thumbs.db
+
+# Misc #
+*.pidb
+*.pidb.meta
+*.pdb
+*.pdb.meta
+*.sln.meta
+*.unityproj.meta
+*.apk
+*.aab
+*.app
+*.exe
+*.dll
+*.so
+*.bundle
+*.swp
+*.lock
+*.csproj.user
+*.orig
+*.csproj.bak
+
+# End of https://www.toptal.com/developers/gitignore/api/unity
